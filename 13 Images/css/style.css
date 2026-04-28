@@ -1,0 +1,109 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+/* defineing utitlity classes */
+/* Begin reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* to display the image as block so */
+img{
+    display: block;/* its remove space of the image below the block */
+}
+/* End Reset */
+
+/*  utitlity classes */
+.nowrap{
+    white-space: nowrap;/* So that text not break */
+}
+
+
+.offscreen {
+    position: absolute;
+    left: -10000px;/* To remove the FigCaption and warg rule*/
+}
+/* End utitlity classes */
+body{
+    font-family:"Nunito", sans-serif;
+    min-height: 100vh;
+    background-color: aliceblue;
+    /* background-image: url("../img/bubbles.png"), linear-gradient(to left, steelblue, #fff);
+    background-repeat: repeat-y, no-repeat;
+    background-position: right center; */
+
+  /* Background Short Hand */
+   background: repeat-y right center url("../img/bubbles.png"), no-repeat linear-gradient(to left, steelblue, #fff);
+  background-size: 20%, auto;
+}
+
+/* to make taxt transparent etc things , container is parent of heor so that's why we can not see box around the text*/
+.container{
+    background-color: rgb(251,210,156);/* Fallback color */
+    background-image: url('../img/map-2176x1451.png');/* .. : To move to folder above the current folder */
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;/* background-size: cover ; To cover the background //  contain: It will repeat the image it will not cover whole image*/
+}
+
+.hero{
+    border-bottom: 2px solid black;
+    padding: 20px;
+    display: flex;/* it's display element in a row */
+    justify-content: flex-start;
+    align-items: center;
+    gap: 30px;
+    background-color: hsla(0, 0%, 100%, 0.35);
+}
+
+h1{
+    font-size: 500%;
+    color: aliceblue;
+    text-shadow: 2px 2px 5px #000;/* Text Shadow : x-axis y-axis blur color */
+    /* background-color: hsla(0, 0%, 0%, 0.404);
+    padding: 0.25rem;
+    border-radius: 10px; */
+    /* the above samething i can do with with other way below we have show second method */
+}
+
+.profile-pic-figure{
+    width: 35%;
+}
+
+.profile-pic-figure img{
+    width: 100%;
+    height: auto;
+    min-width: 100px;
+    border: 5px double gray;
+    border-radius: 50%;/* to make image in round : show as a profile iamhe */
+
+
+}
+
+/* styling section elements  */
+.example{
+    margin-top: 1rem;
+    padding-left: 20px;
+    border: 1px solid red;  
+}
+
+.example img{
+    width: 25%;
+    height: auto ;/* to respong the height accordingg to the height of the image*/
+
+}
+.clip{
+    font-weight: 800;
+    font-size: 18rem;
+    text-align: center;
+    background-image: url("../img/scenic-2200x1331.png");
+    background-size: 100%;
+    text-transform: uppercase;
+    -webkit-background-clip: text;
+    background-clip: text;
+    /* color: hsla(0, 0%, 0%, 0.2); */
+     color: transparent;
+
+
+}

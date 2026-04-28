@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+/* https://symbl.cc/en/unicode-table/#basic-latin */
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+}
+
+.columns{
+    /* column-count: 4; */
+    /* divivde para in each column 1para in one column and it not necessary one para per column it will adapt according to size of website  */
+    /* column-width: 250px; */
+    /* below is short hand property  */
+    columns:  4 250px ;
+    column-rule: 3px solid #333;
+    /* spacing between those column  */
+    column-gap: 3rem;
+
+}
+
+/* we have to remove margin spacing of para element  */
+.columns p{
+    margin-top: 0;/* it will remove margin of first element of para to fix top alginment*/
+}
+
+.columns h2{
+    margin-top: 0;
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    /* to prevent from wrapping of the elemnt into other column ; it will prevent the element slit into two part*/
+    break-inside: avoid;
+    break-before: column;/* It will start the h2 elemnt from start of column instead of placing to end of element */
+
+}
+
+/* we used two class since we used previously only quote class then its specificity low and its not working on the lement so we add two class to improve specificity
+.columns p > .quote , .columns p < .columns .quote */
+
+.columns .quote {
+    font-size: 3rem;;
+    text-align: center;
+    color: #333;
+    column-span: all;
+    margin-top: 2rem;
+    /* since we removed margin of all element so for this element we have to add margin */
+}
+
+.nowrap {
+    white-space: nowrap;
+    /* quote should nto break dude  */
+}

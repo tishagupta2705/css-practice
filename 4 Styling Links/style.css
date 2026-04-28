@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    padding: 10%;
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    background-color: #E5E5E5;
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: hsl(207, 44%, 49%);
+}
+
+a:visited{
+    color: purple;
+}
+
+a:hover , a:focus{
+    color: hsl(189, 44%, 49%);
+    opacity: 0.8;
+    background-color: hsl(178, 41%, 84%);
+}
+a:active{
+    color: red;
+}
+
+/* Consider specity  by calculating: https://specificity.keegan.st/ 
+    either use opacity or hsl value with little vairant in mumber
+*/

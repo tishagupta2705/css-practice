@@ -1,0 +1,51 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 50%;
+    min-height: 100vh;
+    margin: 0 auto;
+    background-color: bisque;
+}
+
+/* html{
+    font-size:16px; 
+} */
+
+header{
+    width:50%;
+}
+
+h1{
+    border:2px dashed green;
+    width:50%;
+    font-size: 3rem;
+    padding: 0.5em;
+}
+
+main{
+    width: 50%;
+    border:2px dashed red;
+    padding: 0.5em;
+    background-color: aquamarine;
+    font-size: 2rem;
+}
+
+p{
+    font-size: 2em;
+    width: 40ch;
+    line-height: 1.5;
+}
+/* https://developer.mozilla.org/en-US/docs/Web/CSS/Guides/Values_and_units/Numeric_data_types#absolute_length_units */
+/* % : use for set the size of heade
+    rem : don't set font size of root element
+    em : set font size of parent
+    ch: set font char in that line
+    vw:issue is that when horizontal content is scrollable, it will change which is developr dont like thats why wenuse %
+    vh:issue is that when vertical content is scrollable, it will change
+
+*/

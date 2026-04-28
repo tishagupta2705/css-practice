@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+
+body {
+  font-size: 1.5rem;
+  font-family: "Roboto", sans-serif;
+}
+
+.block{
+    width: 30vw;
+    height: 20vh;
+    background-color: #000;
+    color: white;
+    padding: 1rem;
+}
+
+/* to algin text around the block */
+.left {
+    float: left;
+    margin-right: 1rem /* to add space between text and block */;
+}
+
+.right {
+    float: right;
+    margin-left: 1rem /* to add space between text and block */;
+}
+
+.clear{
+    clear: both;
+}
+
+section{
+    background-color: aliceblue;
+    border: 1px solid #333;
+    padding: 1rem;
+    overflow: auto;
+    /* possibility to go ahead give the container element to all the way element down content floaded element  */
+
+    /* correct way by MDN  and doesnt shrink based on text content alone*/
+    display: flow-root;
+}
+
+/* 
+
+p{
+    margin-left: 20px; 
+    it will move below the float text but not the around text around the block
+}
+*/
