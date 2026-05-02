@@ -19,6 +19,8 @@ This repository contains my complete CSS learning journey, covering fundamental 
 13. Images  
 14. Media Queries  
 15. Card Project  
+16. Pseudo Classes & Elements  
+17. CSS Variables (Custom Properties)
 
 ## 🧩 Additional Practice
 
