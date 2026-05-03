@@ -1,0 +1,54 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    background-color: #eee;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 40px;
+}
+
+/* Heading */
+h1 {
+    font-weight: 700;
+    margin-bottom: 30px;
+    font-size: 40px;
+}
+
+/* Container */
+div {
+    width: 650px;
+}
+
+/* Blue boxes (NORMAL FLOW — no position!) */
+.blue {
+    background-color: #1fd4d4;
+    border: 3px solid blue;
+    padding: 15px;
+    margin: 25px 0;
+}
+
+/* Yellow box (ONLY this moves) */
+.yellow {
+    background-color: yellow;
+    border: 3px solid blue;
+    padding: 15px;
+
+    position: relative;
+    top: 40px;
+    left: 120px;
+/* 
+    width: 500px; */
+    z-index: 1;
+}
+
+/* Inline highlight */
+.red {
+    background-color: red;
+    color: black;
+    padding: 2px 4px;
+}
