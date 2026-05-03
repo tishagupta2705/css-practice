@@ -21,6 +21,9 @@ This repository contains my complete CSS learning journey, covering fundamental 
 15. Card Project  
 16. Pseudo Classes & Elements  
 17. CSS Variables (Custom Properties)
+18. CSS Functions (calc, clamp, min, max)
+19. CSS Animations  
+
 
 ## 🧩 Additional Practice
 
