@@ -8,6 +8,7 @@
     <title>The Little Taco Shop</title>
     <link rel="icon" href="favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
 </head>
 <body>
     
@@ -42,15 +43,15 @@
     </section>
     
     <main class="main">
-        <article id="about" class="main_article menu">
+        <article id="about" class="main__article menu">
             <h2 class="menu_h2">Our Menu</h2>
-            <table class="menu_container">
+            <table class="menu__container">
                 <caption class="offscreen">Our Tacos</caption>
                 <thead>
                     <tr>
-                        <th class="menu_header" scope="col">Tacos</th>
-                        <th class="menu_header" scope="col">Quantity</th>
-                        <th class="menu_header" scope="col">Price</th>
+                        <th class="menu__header" scope="col">Tacos</th>
+                        <th class="menu__header" scope="col">Quantity</th>
+                        <th class="menu__header" scope="col">Price</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -96,6 +97,7 @@
     <hr>
     <footer class="footer">
         <p>
+            <!-- So that in mobile device it wont break -->
             <span class="nowrap">Copyright &copy; <time id="year"></time></span>
             <span class="nowrap">Little Taco Shop</span>
         </p>
