@@ -22,7 +22,10 @@ This repository contains my complete CSS learning journey, covering fundamental 
 16. Pseudo Classes & Elements  
 17. CSS Variables (Custom Properties)
 18. CSS Functions (calc, clamp, min, max)
-19. CSS Animations  
+19. CSS Animations
+20. Organization
+21. CSS Project
+22. CSS Flexbox
 
 
 ## 🧩 Additional Practice
