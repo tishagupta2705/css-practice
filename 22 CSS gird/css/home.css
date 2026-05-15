@@ -1,0 +1,216 @@
+/* || GOOGLE FONT || */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* || RESET || */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* || GENERAL STYLES || */
+
+body{
+    font-family: 'Poppins', sans-serif;
+    min-height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)),
+    url("../img/bg.jpg") center/cover no-repeat;
+    color: white;
+}
+
+/* || HEADER || */
+
+.header{
+    width: 100%;
+    padding: 20px 60px;
+}
+
+/* || NAVBAR || */
+
+.header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* || LOGO || */
+
+.logo{
+    font-size: 2rem;
+    font-weight: 700;
+    color: orange;
+    cursor: pointer;
+}
+
+/* || MENU || */
+
+.menu{
+    display: flex;
+    gap: 40px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 0.95rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.menu a:hover{
+    color: orange;
+}
+
+/* || SEARCH BAR || */
+
+.search-box{
+    display: flex;
+    align-items: center;
+}
+
+.search-box input{
+    width: 200px;
+    padding: 10px;
+    border: 1px solid orange;
+    background: transparent;
+    color: white;
+    outline: none;
+}
+
+.search-box input::placeholder{
+    color: #ddd;
+}
+
+.search-box button{
+    padding: 10px 18px;
+    border: none;
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+    font-weight: 500;
+}
+
+/* || HERO SECTION || */
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 60px;
+}
+
+/* || LEFT CONTENT || */
+
+.content{
+    max-width: 600px;
+}
+
+.content h1{
+    font-size: 4rem;
+    line-height: 1.2;
+    margin-bottom: 20px;
+}
+
+.content h1 span{
+    color: orange;
+}
+
+.content p{
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #ddd;
+    margin-bottom: 30px;
+}
+
+.join-btn{
+    display: inline-block;
+    padding: 12px 35px;
+    background-color: orange;
+    color: black;
+    text-decoration: none;
+    border-radius: 10px;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.join-btn:hover{
+    background-color: white;
+}
+
+/* || LOGIN BOX || */
+
+.login-box{
+    width: 320px;
+    background-color: rgba(0,0,0,0.8);
+    padding: 35px 25px;
+    border-radius: 10px;
+}
+
+.login-box h2{
+    background-color: white;
+    color: orange;
+    text-align: center;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.login-box input{
+    width: 100%;
+    padding: 12px 5px;
+    margin-bottom: 25px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid orange;
+    outline: none;
+    color: white;
+}
+
+.login-box input::placeholder{
+    color: #ccc;
+}
+
+.login-btn{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    background-color: orange;
+    color: black;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.login-btn:hover{
+    background-color: white;
+}
+
+.login-box p{
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.login-box a{
+    color: orange;
+    text-decoration: none;
+}
+
+.social-icons{
+    display: flex;
+    justify-content: center;
+    gap: 18px;
+    margin-top: 20px;
+}
+
+.social-icons i{
+    font-size: 1.3rem;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.social-icons i:hover{
+    color: orange;
+}
